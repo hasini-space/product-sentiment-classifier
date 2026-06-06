@@ -22,7 +22,7 @@ This interactive dashboard uses a Natural Language Processing (NLP) model to pre
 @st.cache_resource
 def load_trained_pipeline():
     # Load dataset
-    df = pd.read_csv("data/Womens_Clothing_E-Commerce_Reviews.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/AiswaryaSrinivas/Data-Science-Projects/master/Automated%20Sentiment%20Analysis%20of%20E-Commerce%20Reviews/Womens%20Clothing%20E-Commerce%20Reviews.csv")
     
     # Store original data for visualization before filtering neutral reviews
     visual_df = df.copy()
